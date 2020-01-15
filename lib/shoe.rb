@@ -9,6 +9,7 @@ class Shoe
     if @shoe.exclude?(brand)
     BRANDS << @brand
   end
+end
   
 
   def cobble
